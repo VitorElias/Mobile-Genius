@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.a-btn {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.icones img {
+    height: 20px; 
+    margin-right: 10px; 
+}
+
+.home-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.form {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.container-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 50px;
+}
+
+.container-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 17px;
+}
+
+.container-form .form-group {
+    margin-bottom: 30px; 
+}
+
+
+.container-form input[type="text"],
+.container-form input[type="email"],
+.container-form input[type="password"],
+.container-form input[type="tel"],
+.container-form textarea {
+    width: calc(100% - 40px); 
+    padding: 15px; 
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.container-form label {
+    margin-bottom: 15px; 
+}
+
+
+.container-form button {
+    width: 50%;
+    padding: 15px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.container-form button:hover {
+    background-color: #1D2837;
+    color: #fff;
+}
+
+footer {
+     background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+}
+
+
